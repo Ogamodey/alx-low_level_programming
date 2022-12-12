@@ -1,11 +1,11 @@
+#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#include <stdio.h>
-
 /**
- * main - last digit number stored in the variable
+ * main - main function to generate a random number
  *
- * Return: Always 0 (success)
+ * Return: Always 0 (Success)
+ *
  */
 int main(void)
 {
@@ -14,11 +14,11 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	printf("last digit of %d is ", n);
+	printf("Last digit of %d is ", n);
 	num = n % 10;
 	if (num > 5)
 	{
-		printf("%d and greater than 5\n", num);
+		printf("%d and is greater than 5\n", num);
 	}
 	else if ((num < 6) && (num < 0))
 	{
