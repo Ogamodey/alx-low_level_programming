@@ -2,9 +2,9 @@
 #include <stdlib.h>
 
 /**
- * main - Returns both lower and upper case
+ * main - return alphabets both lower and upper case
  *
- * Return: Always 0 (success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -25,4 +25,3 @@ int main(void)
 	putchar('\n');
 	return (0);
 }
-
