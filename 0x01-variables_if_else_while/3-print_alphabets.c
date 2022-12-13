@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * main - return alphabets both lower and upper case
+ * main - return alphabets both lower and upper cases
  *
  * Return: Always 0 (Success)
  */
@@ -21,4 +21,8 @@ int main(void)
                 putchar(CH);
                 CH++;
         }
+
+	putchar('\n');
+	return (0);
+}
 
