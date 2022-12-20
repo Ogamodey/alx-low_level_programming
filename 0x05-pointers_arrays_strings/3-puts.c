@@ -4,8 +4,8 @@
 
 /**
 * _puts - function that prints a string, followed by a new line, to stdout
-* @str: pointer value
-* Return: Always 0 (Success)
+* @str: the string
+* Return: the length of the string
 */
 
 void _puts(char *str)
